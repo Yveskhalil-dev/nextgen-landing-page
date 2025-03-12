@@ -63,11 +63,10 @@ export const Pricing = () => {
           <h2 className="section-title">Our Pricing Plans</h2>
           <p className="section-des mt-5">
             Explore our range of pricing plans designed to suit businesses of
-            all sizes. Whether you're just starting out or looking to scale, we
-            have a plan for you.
+            all sizes. Whether you&apos;re just starting out or looking to
+            scale, we have a plan for you.
           </p>
         </div>
-
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
           {pricingTiers.map(
             ({
